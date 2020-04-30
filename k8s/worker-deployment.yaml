@@ -13,8 +13,8 @@ spec:
         component: worker
     spec:
       containers:
-        - name: worker-deployment
-          image: stephengrider/multi-worker 
+        - name: worker
+          image: sanu0602/multi-worker 
           resources:
             limits:
               memory: "128Mi"
